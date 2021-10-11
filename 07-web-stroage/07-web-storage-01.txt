@@ -1,0 +1,6 @@
+1. Apa itu localStorage?
+Localstroage adalah penyimpanan yang ada pada web stroage yang berisi asset ketika website dimuat pertamakali, sehungga load akan cepat karena tidak mengunduh data dari server. 
+2. Apa itu cookies?
+Cookies adalah penyimpanan pada web yang menyimpan data yang dikirim saat website berjalan yang hanya mengizinkan 4 KB data untuk disimpan meskipun WebStorage (baik lokal maupun session) menyediakan hampir sekitar 10 MB ruang untuk penyimpanan.
+3. Apa perbedaan antara localStorage dan sessionStorage?
+Jawaban: local stroage akan menyimpan data tanpa waktu expired, sedangkan session stroage memiliki waktu expired
