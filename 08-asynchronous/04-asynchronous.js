@@ -23,7 +23,7 @@ elFormUsername.onsubmit = async (e) => {
     console.log(input);
     let data = await getGitHubUser(input)
 
-    alert("Kak, kalo mau cek read more, bukanya lewat open in new tab, yang di samping icon pencil, kalo di replit langsung error")
+    alert("User ditemukan")
 
     if (data.login) {
 
@@ -46,9 +46,5 @@ elFormUsername.onsubmit = async (e) => {
 
         return elCard
     }
-    // console.log("notfound");
-
-
-    //   console.log(data.login);
 
 };
